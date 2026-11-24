@@ -1,0 +1,35 @@
+{
+  "warehouse": "Central Warehouse",
+  "nodes": [
+    {"name": "Central Warehouse", "x": 5.0, "y": 5.0},
+    {"name": "Karol Bagh", "x": 4.0, "y": 5.8},
+    {"name": "Rohini", "x": 3.2, "y": 7.8},
+    {"name": "Dwarka", "x": 2.2, "y": 4.2},
+    {"name": "Cyber City", "x": 2.0, "y": 2.2},
+    {"name": "Golf Course Road", "x": 2.8, "y": 1.2},
+    {"name": "Hauz Khas", "x": 4.6, "y": 3.5},
+    {"name": "Saket", "x": 4.8, "y": 2.5},
+    {"name": "Nehru Place", "x": 6.3, "y": 3.4},
+    {"name": "Lajpat Nagar", "x": 5.8, "y": 4.2},
+    {"name": "Sector 18", "x": 7.8, "y": 4.0},
+    {"name": "Electronic City", "x": 9.0, "y": 4.6}
+  ],
+  "edges": [
+    {"from": "Central Warehouse", "to": "Karol Bagh", "distance": 4.5},
+    {"from": "Central Warehouse", "to": "Lajpat Nagar", "distance": 6.0},
+    {"from": "Central Warehouse", "to": "Hauz Khas", "distance": 8.5},
+    {"from": "Central Warehouse", "to": "Rohini", "distance": 13.5},
+    {"from": "Karol Bagh", "to": "Rohini", "distance": 11.0},
+    {"from": "Karol Bagh", "to": "Dwarka", "distance": 14.0},
+    {"from": "Dwarka", "to": "Cyber City", "distance": 12.5},
+    {"from": "Cyber City", "to": "Golf Course Road", "distance": 6.0},
+    {"from": "Cyber City", "to": "Hauz Khas", "distance": 13.0},
+    {"from": "Hauz Khas", "to": "Saket", "distance": 3.5},
+    {"from": "Hauz Khas", "to": "Nehru Place", "distance": 4.8},
+    {"from": "Saket", "to": "Golf Course Road", "distance": 14.5},
+    {"from": "Lajpat Nagar", "to": "Nehru Place", "distance": 3.2},
+    {"from": "Lajpat Nagar", "to": "Sector 18", "distance": 8.5},
+    {"from": "Nehru Place", "to": "Sector 18", "distance": 9.0},
+    {"from": "Sector 18", "to": "Electronic City", "distance": 7.0}
+  ]
+}
